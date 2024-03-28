@@ -75,7 +75,7 @@
         border-radius: 45px;
         border: 2px #2fc990;
         margin-top: -170%;
-        margin-left: 20%;
+        margin-left: 1%;
       }
     }
   }
@@ -169,11 +169,19 @@
     }
   }
   .Y8 {
-    h5 {
-      display: inline-block;
-      margin-left: 14%;
-      margin-top: 1%;
-      margin-right: -1%;
+    #riya {
+      border-bottom: 1px solid rgb(220, 219, 219);
+
+      h5 {
+        display: inline-block;
+        margin-left: 14%;
+        margin-top: 1%;
+        margin-right: -1%;
+        margin-bottom: -1%;
+        &:hover {
+          border-bottom: 3px solid rgb(13, 195, 125);
+        }
+      }
     }
     .ankit1 {
       margin-left: 75%;
@@ -270,14 +278,37 @@
       }
     }
   }
-  .C1 {
-    display: none;
-    .addim {
-      background: tan;
-      border-radius: 37px;
-      margin-left: 4%;
-      padding: 2% 0% 0%;
+  #scroll-buttons {
+    .button-work {
+      .button-written {
+        .button-set {
+          .button-list {
+            width: 80vw;
+            overflow-x: scroll;
+            list-style-type: none;
+            display: flex;
+            scrollbar-width: none;
+            li {
+              .s-btn {
+                background: #f5f1e6;
+                width: 167px;
+                height: 47px;
+                &:hover {
+                  background-color: #f5f1e6;
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+      }
     }
+  }
+  #scroll-buttons {
+    display: none;
+  }
+  .again {
+    display: block !important;
   }
   .D1 {
     display: none;

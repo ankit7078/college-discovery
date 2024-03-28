@@ -280,15 +280,37 @@
       }
     }
   }
-  .C1 {
-    display: block;
-    .addim {
-      background: tan;
-      border-radius: 37px;
-      margin-left: 4%;
-      padding: 2% 0% 0%;
+  #scroll-buttons {
+    .button-work {
+      .button-written {
+        .button-set {
+          .button-list {
+            width: 100%;
+            overflow-x: scroll;
+            list-style-type: none;
+            display: flex;
+            scrollbar-width: none;
+            li {
+              .s-btn {
+                background: #f5f1e6;
+                width: 142px;
+                height: 41px;
+                font-size: 94%;
+                &:hover {
+                  background-color: #f5f1e6;
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
+  .again {
+    display: block !important;
+  }
+
   .D1 {
     display: block;
   }

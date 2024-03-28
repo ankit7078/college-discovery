@@ -271,14 +271,25 @@
     background: rgb(234, 207, 171);
     border-radius: 45px;
   }
-  .C1 {
-    display: block;
+  #scroll-buttons .button-work .button-written .button-set .button-list {
+    width: 100%;
+    overflow-x: scroll;
+    list-style-type: none;
+    display: flex;
+    scrollbar-width: none;
   }
-  .C1 .addim {
-    background: tan;
-    border-radius: 37px;
-    margin-left: 4%;
-    padding: 2% 0% 0%;
+  #scroll-buttons .button-work .button-written .button-set .button-list li .s-btn {
+    background: #f5f1e6;
+    width: 142px;
+    height: 41px;
+    font-size: 94%;
+  }
+  #scroll-buttons .button-work .button-written .button-set .button-list li .s-btn:hover {
+    background-color: #f5f1e6;
+    color: black;
+  }
+  .again {
+    display: block !important;
   }
   .D1 {
     display: block;
@@ -583,7 +594,7 @@
     border-radius: 45px;
     border: 2px #2fc990;
     margin-top: -170%;
-    margin-left: 20%;
+    margin-left: 1%;
   }
   .E {
     margin-left: 10%;
@@ -667,11 +678,18 @@
     width: 237px;
     height: 143px;
   }
-  .Y8 h5 {
+  .Y8 #riya {
+    border-bottom: 1px solid rgb(220, 219, 219);
+  }
+  .Y8 #riya h5 {
     display: inline-block;
     margin-left: 14%;
     margin-top: 1%;
     margin-right: -1%;
+    margin-bottom: -1%;
+  }
+  .Y8 #riya h5:hover {
+    border-bottom: 3px solid rgb(13, 195, 125);
   }
   .Y8 .ankit1 {
     margin-left: 75%;
@@ -761,14 +779,27 @@
     background: rgb(234, 207, 171);
     border-radius: 45px;
   }
-  .C1 {
+  #scroll-buttons .button-work .button-written .button-set .button-list {
+    width: 80vw;
+    overflow-x: scroll;
+    list-style-type: none;
+    display: flex;
+    scrollbar-width: none;
+  }
+  #scroll-buttons .button-work .button-written .button-set .button-list li .s-btn {
+    background: #f5f1e6;
+    width: 167px;
+    height: 47px;
+  }
+  #scroll-buttons .button-work .button-written .button-set .button-list li .s-btn:hover {
+    background-color: #f5f1e6;
+    color: black;
+  }
+  #scroll-buttons {
     display: none;
   }
-  .C1 .addim {
-    background: tan;
-    border-radius: 37px;
-    margin-left: 4%;
-    padding: 2% 0% 0%;
+  .again {
+    display: block !important;
   }
   .D1 {
     display: none;
